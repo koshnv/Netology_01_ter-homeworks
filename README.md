@@ -5,6 +5,10 @@
 `terraform --version`  
 ![terraform version](img/terraform_version.png)  
 
+Файлы проекта лежат в :  
+- [main.tf](src/main.tf)  
+- [.gitignore](src/.gitignore)  
+
 ## Задание 1  
 1. Скачать зависимости  
 `terraform init`  
@@ -147,15 +151,15 @@ resource "docker_image" "nginx" {
 Подтверждение из документации:  
 https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs/resources/image  
 
-![docker image](img/docker_image.png)  
+![docker image](img/docker_image.png)
 
 
 # Задание 2  
-Создал проект Terraform с файлами:
-[main.tf](task_2/main.tf)
-[variables.tf](task_2/variables.tf)
-personal.auto.tfvars
-[.gitignore](task_2/.gitignore)  
+Создал проект Terraform с файлами:  
+- [main.tf](task_2/main.tf)  
+- [variables.tf](task_2/variables.tf)  
+- personal.auto.tfvars  
+- [.gitignore](task_2/.gitignore)  
 
 Использую провайдер yandex-cloud/yandex для работы с Yandex Cloud.  
 Запускаю скрипт под сервисным аккаунтом:  
